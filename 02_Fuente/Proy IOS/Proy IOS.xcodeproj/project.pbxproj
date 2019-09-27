@@ -15,6 +15,10 @@
 		55657FCF233939CC00D483C0 /* Proy_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55657FCE233939CC00D483C0 /* Proy_IOSTests.swift */; };
 		55657FDA233939CC00D483C0 /* Proy_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55657FD9233939CC00D483C0 /* Proy_IOSUITests.swift */; };
 		558482B8233946A00056D8EA /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558482B7233946A00056D8EA /* RoundButton.swift */; };
+		5590E213233D2BDF00D207AB /* Encuesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590E212233D2BDF00D207AB /* Encuesta.swift */; };
+		5590E215233D2E8700D207AB /* ViewControllerListaEncuesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590E214233D2E8700D207AB /* ViewControllerListaEncuesta.swift */; };
+		5590E217233D374500D207AB /* ViewControllerRegistrarEncuesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590E216233D374500D207AB /* ViewControllerRegistrarEncuesta.swift */; };
+		5590E219233E761B00D207AB /* TableViewCellCeldaEncuesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590E218233E761B00D207AB /* TableViewCellCeldaEncuesta.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		55657FD9233939CC00D483C0 /* Proy_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proy_IOSUITests.swift; sourceTree = "<group>"; };
 		55657FDB233939CC00D483C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		558482B7233946A00056D8EA /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		5590E212233D2BDF00D207AB /* Encuesta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encuesta.swift; sourceTree = "<group>"; };
+		5590E214233D2E8700D207AB /* ViewControllerListaEncuesta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerListaEncuesta.swift; sourceTree = "<group>"; };
+		5590E216233D374500D207AB /* ViewControllerRegistrarEncuesta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRegistrarEncuesta.swift; sourceTree = "<group>"; };
+		5590E218233E761B00D207AB /* TableViewCellCeldaEncuesta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellCeldaEncuesta.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				55657FC2233939CC00D483C0 /* LaunchScreen.storyboard */,
 				55657FC5233939CC00D483C0 /* Info.plist */,
 				558482B7233946A00056D8EA /* RoundButton.swift */,
+				5590E212233D2BDF00D207AB /* Encuesta.swift */,
+				5590E214233D2E8700D207AB /* ViewControllerListaEncuesta.swift */,
+				5590E216233D374500D207AB /* ViewControllerRegistrarEncuesta.swift */,
+				5590E218233E761B00D207AB /* TableViewCellCeldaEncuesta.swift */,
 			);
 			path = "Proy IOS";
 			sourceTree = "<group>";
@@ -259,9 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5590E217233D374500D207AB /* ViewControllerRegistrarEncuesta.swift in Sources */,
 				558482B8233946A00056D8EA /* RoundButton.swift in Sources */,
+				5590E215233D2E8700D207AB /* ViewControllerListaEncuesta.swift in Sources */,
+				5590E213233D2BDF00D207AB /* Encuesta.swift in Sources */,
 				55657FBC233939C900D483C0 /* ViewController.swift in Sources */,
 				55657FBA233939C900D483C0 /* AppDelegate.swift in Sources */,
+				5590E219233E761B00D207AB /* TableViewCellCeldaEncuesta.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
