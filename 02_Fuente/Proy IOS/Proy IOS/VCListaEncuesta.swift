@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewControllerListaEncuesta: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class VCListaEncuesta: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -16,7 +16,7 @@ class ViewControllerListaEncuesta: UIViewController, UITableViewDataSource, UITa
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let ocelda = tableView.dequeueReusableCell(withIdentifier: "celda",for: indexPath) as! TableViewCellCeldaEncuesta
+        let ocelda = tableView.dequeueReusableCell(withIdentifier: "celda",for: indexPath) as! TVCCeldaEncuesta
         
         let oEncuesta1 = listaEncuesta[indexPath.row]
         
@@ -49,7 +49,7 @@ class ViewControllerListaEncuesta: UIViewController, UITableViewDataSource, UITa
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == "pasarLista"{
-            let lista = segue.destination as! ViewControllerRegistrarEncuesta
+            let lista = segue.destination as! VCRegistraEncuesta
             lista.listaParaLlenar = listaEncuesta
         }
     }

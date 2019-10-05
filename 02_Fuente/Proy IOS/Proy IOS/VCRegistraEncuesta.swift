@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewControllerRegistrarEncuesta: UIViewController {
+class VCRegistraEncuesta: UIViewController {
     
     var listaParaLlenar : [Encuesta] = []
     
@@ -28,7 +28,7 @@ class ViewControllerRegistrarEncuesta: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "pasarInfoEncuesta"{
-            let listaActualizada = segue.destination as! ViewControllerListaEncuesta
+            let listaActualizada = segue.destination as! VCListaEncuesta
             listaActualizada.listaEncuesta = listaParaLlenar
         }
     }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class VCLogin: UIViewController {
 
     @IBOutlet weak var tfemail: UITextField!
     @IBOutlet weak var tfpass: UITextField!
@@ -27,19 +27,26 @@ class ViewController: UIViewController {
     
     @IBAction func btnIniciarSesion_Click(_ sender: Any) {
         view.endEditing(true)
+        if tfemail.text == "" {
+            crearAlerta(titulo: "tuprofe.pe", mensaje: "Ingrese email")
+        }
+        if tfpass.text == "" {
+            crearAlerta(titulo: "tuprofe.pe", mensaje: "Ingrese contraseña")
+        }
+    }
+    
+    @IBAction func Enviar_click(_ sender: Any) {
         
     }
     
-    /*
     // Alerta que se oculta después de 2 segundos
     func crearAlerta(titulo:String , mensaje:String){
         let Alert:UIAlertController = UIAlertController(title: titulo, message: mensaje, preferredStyle: UIAlertController.Style.alert)
         present(Alert,animated: true,completion: nil)
-        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now()+2){
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now()+1){
             Alert.dismiss(animated: true, completion:nil)
         }
     }
-    */
     
     /*
     //Falta decidir cuando llamar la alerta
@@ -54,7 +61,7 @@ class ViewController: UIViewController {
         tfpass.delegate = self
     }
     private func confTG(){
-        let tapGesture = UITapGestureRecognizer(target:self, action: #selector(ViewController.handleTap))
+        let tapGesture = UITapGestureRecognizer(target:self, action: #selector(VCLogin.handleTap))
         view.addGestureRecognizer(tapGesture)
         
     }
@@ -63,7 +70,7 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController : UITextFieldDelegate{
+extension VCLogin : UITextFieldDelegate{
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true

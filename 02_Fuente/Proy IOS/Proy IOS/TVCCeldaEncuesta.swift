@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TableViewCellCeldaEncuesta: UITableViewCell {
+class TVCCeldaEncuesta: UITableViewCell {
     @IBOutlet weak var lbTitulo: UILabel!
     @IBOutlet weak var tvTarget: UITextView!
     

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewControllerRegistrarUsuario2: UIViewController {
+class VCRegistraUsuario2: UIViewController {
 
     var NomApe : String = ""
     var Dni : String = ""
@@ -113,7 +113,7 @@ class ViewControllerRegistrarUsuario2: UIViewController {
         tfConfirmar.delegate = self
     }
     private func confTG(){
-        let tapGesture = UITapGestureRecognizer(target:self, action: #selector(ViewControllerRegistrarUsuario2.handleTap))
+        let tapGesture = UITapGestureRecognizer(target:self, action: #selector(VCRegistraUsuario2.handleTap))
         view.addGestureRecognizer(tapGesture)
         
     }
@@ -123,7 +123,7 @@ class ViewControllerRegistrarUsuario2: UIViewController {
     
 }
 
-extension ViewControllerRegistrarUsuario2 : UITextFieldDelegate{
+extension VCRegistraUsuario2 : UITextFieldDelegate{
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true

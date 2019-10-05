@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewControllerRegistrarUsuario1: UIViewController {
+class VCRegistraUsuario1: UIViewController {
     var NomApe : String = ""
     var Dni : String = ""
     var Email : String = ""
@@ -25,7 +25,7 @@ class ViewControllerRegistrarUsuario1: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "segueRegistrarUsuario2"{
-            let paso = segue.destination as! ViewControllerRegistrarUsuario2
+            let paso = segue.destination as! VCRegistraUsuario2
             paso.NomApe = NomApe
             paso.Dni = Dni
             paso.Email = Email
@@ -82,7 +82,7 @@ class ViewControllerRegistrarUsuario1: UIViewController {
         tfCel.delegate = self
     }
     private func confTG(){
-        let tapGesture = UITapGestureRecognizer(target:self, action: #selector(ViewControllerRegistrarUsuario1.handleTap))
+        let tapGesture = UITapGestureRecognizer(target:self, action: #selector(VCRegistraUsuario1.handleTap))
         view.addGestureRecognizer(tapGesture)
         
     }
@@ -92,7 +92,7 @@ class ViewControllerRegistrarUsuario1: UIViewController {
     
 }
 
-extension ViewControllerRegistrarUsuario1 : UITextFieldDelegate{
+extension VCRegistraUsuario1 : UITextFieldDelegate{
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true

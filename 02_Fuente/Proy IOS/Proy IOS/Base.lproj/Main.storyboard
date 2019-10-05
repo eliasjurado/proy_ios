@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Proy_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="VCLogin" customModule="Proy_IOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -174,10 +174,10 @@
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="95.758928571428569"/>
         </scene>
-        <!--View Controller Registrar Usuario1-->
+        <!--Registra Usuario1-->
         <scene sceneID="I90-CX-awp">
             <objects>
-                <viewController id="Pyd-Bg-cAW" customClass="ViewControllerRegistrarUsuario1" customModule="Proy_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Pyd-Bg-cAW" customClass="VCRegistraUsuario1" customModule="Proy_IOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1N4-tF-tq1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -324,10 +324,10 @@
             </objects>
             <point key="canvasLocation" x="1900.0000000000002" y="112.5"/>
         </scene>
-        <!--View Controller Registrar Usuario2-->
+        <!--Registra Usuario2-->
         <scene sceneID="nNl-yd-3KF">
             <objects>
-                <viewController id="hsN-4M-Orf" customClass="ViewControllerRegistrarUsuario2" customModule="Proy_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hsN-4M-Orf" customClass="VCRegistraUsuario2" customModule="Proy_IOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q4T-EJ-dAO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -485,10 +485,10 @@
             </objects>
             <point key="canvasLocation" x="2628.985507246377" y="112.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Olvide Contrasena-->
         <scene sceneID="fxk-0M-ZLk">
             <objects>
-                <viewController id="e6r-mT-ka6" sceneMemberID="viewController">
+                <viewController id="e6r-mT-ka6" customClass="VCOlvideContrasena" customModule="Proy_IOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MfZ-q5-XS8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -527,20 +527,26 @@
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Enviar"/>
+                                <connections>
+                                    <action selector="Enviar_click:" destination="e6r-mT-ka6" eventType="touchUpInside" id="gcV-ae-pDh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Rpm-7T-bSh"/>
                     </view>
+                    <connections>
+                        <outlet property="tfEmail" destination="SM3-Tv-L0K" id="Zf7-Mv-Gx4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZEy-tu-wr0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1857.9710144927537" y="-560.49107142857144"/>
         </scene>
-        <!--View Controller Lista Encuesta-->
+        <!--Lista Encuesta-->
         <scene sceneID="RRx-Lg-reK">
             <objects>
-                <viewController storyboardIdentifier="UIListaEncuesta" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2wT-Mg-45t" customClass="ViewControllerListaEncuesta" customModule="Proy_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UIListaEncuesta" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2wT-Mg-45t" customClass="VCListaEncuesta" customModule="Proy_IOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cNP-0s-eEs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -557,7 +563,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="celda" rowHeight="91" id="hoj-Cr-0iE" customClass="TableViewCellCeldaEncuesta" customModule="Proy_IOS" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="celda" rowHeight="91" id="hoj-Cr-0iE" customClass="TVCCeldaEncuesta" customModule="Proy_IOS" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="374" height="91"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hoj-Cr-0iE" id="mDO-TI-3Xg">
@@ -607,10 +613,10 @@
             </objects>
             <point key="canvasLocation" x="1442.0289855072465" y="825.66964285714278"/>
         </scene>
-        <!--View Controller Registrar Encuesta-->
+        <!--Registra Encuesta-->
         <scene sceneID="VWt-N4-1Ux">
             <objects>
-                <viewController id="yeH-hd-BLf" customClass="ViewControllerRegistrarEncuesta" customModule="Proy_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="yeH-hd-BLf" customClass="VCRegistraEncuesta" customModule="Proy_IOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hY0-Rp-mhQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -735,6 +741,6 @@
         <image name="logo.png" width="1500" height="1500"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="AGs-cI-pSL"/>
+        <segue reference="UyG-4D-2hX"/>
     </inferredMetricsTieBreakers>
 </document>
