@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		550A649823482546005915F6 /* ViewControllerRegistrarUsuario1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550A649723482546005915F6 /* ViewControllerRegistrarUsuario1.swift */; };
+		550A649A23482563005915F6 /* ViewControllerRegistrarUsuario2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550A649923482563005915F6 /* ViewControllerRegistrarUsuario2.swift */; };
 		55657FBA233939C900D483C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55657FB9233939C900D483C0 /* AppDelegate.swift */; };
 		55657FBC233939C900D483C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55657FBB233939C900D483C0 /* ViewController.swift */; };
 		55657FBF233939C900D483C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55657FBD233939C900D483C0 /* Main.storyboard */; };
@@ -19,6 +21,7 @@
 		5590E215233D2E8700D207AB /* ViewControllerListaEncuesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590E214233D2E8700D207AB /* ViewControllerListaEncuesta.swift */; };
 		5590E217233D374500D207AB /* ViewControllerRegistrarEncuesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590E216233D374500D207AB /* ViewControllerRegistrarEncuesta.swift */; };
 		5590E219233E761B00D207AB /* TableViewCellCeldaEncuesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590E218233E761B00D207AB /* TableViewCellCeldaEncuesta.swift */; };
+		55F0D54A23478F9900E2A740 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F0D54923478F9800E2A740 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		550A649723482546005915F6 /* ViewControllerRegistrarUsuario1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRegistrarUsuario1.swift; sourceTree = "<group>"; };
+		550A649923482563005915F6 /* ViewControllerRegistrarUsuario2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRegistrarUsuario2.swift; sourceTree = "<group>"; };
 		55657FB6233939C900D483C0 /* Proy IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Proy IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55657FB9233939C900D483C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55657FBB233939C900D483C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +62,7 @@
 		5590E214233D2E8700D207AB /* ViewControllerListaEncuesta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerListaEncuesta.swift; sourceTree = "<group>"; };
 		5590E216233D374500D207AB /* ViewControllerRegistrarEncuesta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRegistrarEncuesta.swift; sourceTree = "<group>"; };
 		5590E218233E761B00D207AB /* TableViewCellCeldaEncuesta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellCeldaEncuesta.swift; sourceTree = "<group>"; };
+		55F0D54923478F9800E2A740 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../../Documents/logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,7 @@
 		55657FB8233939C900D483C0 /* Proy IOS */ = {
 			isa = PBXGroup;
 			children = (
+				55F0D54923478F9800E2A740 /* logo.png */,
 				55657FB9233939C900D483C0 /* AppDelegate.swift */,
 				55657FBB233939C900D483C0 /* ViewController.swift */,
 				55657FBD233939C900D483C0 /* Main.storyboard */,
@@ -118,6 +125,8 @@
 				5590E214233D2E8700D207AB /* ViewControllerListaEncuesta.swift */,
 				5590E216233D374500D207AB /* ViewControllerRegistrarEncuesta.swift */,
 				5590E218233E761B00D207AB /* TableViewCellCeldaEncuesta.swift */,
+				550A649723482546005915F6 /* ViewControllerRegistrarUsuario1.swift */,
+				550A649923482563005915F6 /* ViewControllerRegistrarUsuario2.swift */,
 			);
 			path = "Proy IOS";
 			sourceTree = "<group>";
@@ -244,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F0D54A23478F9900E2A740 /* logo.png in Resources */,
 				55657FC4233939CC00D483C0 /* LaunchScreen.storyboard in Resources */,
 				55657FC1233939CC00D483C0 /* Assets.xcassets in Resources */,
 				55657FBF233939C900D483C0 /* Main.storyboard in Resources */,
@@ -271,9 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				550A649A23482563005915F6 /* ViewControllerRegistrarUsuario2.swift in Sources */,
 				5590E217233D374500D207AB /* ViewControllerRegistrarEncuesta.swift in Sources */,
 				558482B8233946A00056D8EA /* RoundButton.swift in Sources */,
 				5590E215233D2E8700D207AB /* ViewControllerListaEncuesta.swift in Sources */,
+				550A649823482546005915F6 /* ViewControllerRegistrarUsuario1.swift in Sources */,
 				5590E213233D2BDF00D207AB /* Encuesta.swift in Sources */,
 				55657FBC233939C900D483C0 /* ViewController.swift in Sources */,
 				55657FBA233939C900D483C0 /* AppDelegate.swift in Sources */,

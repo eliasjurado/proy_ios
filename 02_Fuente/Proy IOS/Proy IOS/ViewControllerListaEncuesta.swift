@@ -51,7 +51,9 @@ class ViewControllerListaEncuesta: UIViewController, UITableViewDataSource, UITa
         if segue.identifier == "pasarLista"{
             let lista = segue.destination as! ViewControllerRegistrarEncuesta
             lista.listaParaLlenar = listaEncuesta
+        }
     }
+        
 
     /*
     // MARK: - Navigation
@@ -62,7 +64,7 @@ class ViewControllerListaEncuesta: UIViewController, UITableViewDataSource, UITa
         // Pass the selected object to the new view controller.
     }
     */
-   func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
         
@@ -80,5 +82,6 @@ class ViewControllerListaEncuesta: UIViewController, UITableViewDataSource, UITa
         }
     }
 
-}
+  
+
 }
