@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5504C4A1234B3A170008432B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5504C4A0234B3A170008432B /* logo.png */; };
 		550A649823482546005915F6 /* VCRegistraUsuario1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550A649723482546005915F6 /* VCRegistraUsuario1.swift */; };
 		550A649A23482563005915F6 /* VCRegistraUsuario2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550A649923482563005915F6 /* VCRegistraUsuario2.swift */; };
 		55657FBA233939C900D483C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55657FB9233939C900D483C0 /* AppDelegate.swift */; };
@@ -22,7 +23,6 @@
 		5590E217233D374500D207AB /* VCRegistraEncuesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590E216233D374500D207AB /* VCRegistraEncuesta.swift */; };
 		5590E219233E761B00D207AB /* TVCCeldaEncuesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590E218233E761B00D207AB /* TVCCeldaEncuesta.swift */; };
 		5593F45223492F250098B7E6 /* VCOlvideContrasena.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5593F45123492F250098B7E6 /* VCOlvideContrasena.swift */; };
-		55F0D54A23478F9900E2A740 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F0D54923478F9800E2A740 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5504C4A0234B3A170008432B /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../04_Recursos/logo.png; sourceTree = "<group>"; };
 		550A649723482546005915F6 /* VCRegistraUsuario1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCRegistraUsuario1.swift; sourceTree = "<group>"; };
 		550A649923482563005915F6 /* VCRegistraUsuario2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCRegistraUsuario2.swift; sourceTree = "<group>"; };
 		55657FB6233939C900D483C0 /* Proy IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Proy IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,7 +65,6 @@
 		5590E216233D374500D207AB /* VCRegistraEncuesta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCRegistraEncuesta.swift; sourceTree = "<group>"; };
 		5590E218233E761B00D207AB /* TVCCeldaEncuesta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCCeldaEncuesta.swift; sourceTree = "<group>"; };
 		5593F45123492F250098B7E6 /* VCOlvideContrasena.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCOlvideContrasena.swift; sourceTree = "<group>"; };
-		55F0D54923478F9800E2A740 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../../Documents/logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +115,7 @@
 		55657FB8233939C900D483C0 /* Proy IOS */ = {
 			isa = PBXGroup;
 			children = (
-				55F0D54923478F9800E2A740 /* logo.png */,
+				5504C4A0234B3A170008432B /* logo.png */,
 				55657FB9233939C900D483C0 /* AppDelegate.swift */,
 				55657FBB233939C900D483C0 /* VCLogin.swift */,
 				55657FBD233939C900D483C0 /* Main.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55F0D54A23478F9900E2A740 /* logo.png in Resources */,
+				5504C4A1234B3A170008432B /* logo.png in Resources */,
 				55657FC4233939CC00D483C0 /* LaunchScreen.storyboard in Resources */,
 				55657FC1233939CC00D483C0 /* Assets.xcassets in Resources */,
 				55657FBF233939C900D483C0 /* Main.storyboard in Resources */,
