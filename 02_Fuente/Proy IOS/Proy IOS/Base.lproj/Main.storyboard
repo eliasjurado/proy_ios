@@ -548,11 +548,11 @@
             <objects>
                 <viewController storyboardIdentifier="UICursos" id="7zE-Ln-24X" customClass="VCCursos" customModule="Proy_IOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y0E-dl-Mhy">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bZd-HX-lqs">
-                                <rect key="frame" x="0.0" y="88" width="414" height="120"/>
+                                <rect key="frame" x="0.0" y="-688" width="414" height="120"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="aIX-61-Oq6" kind="embed" id="q23-bl-c3x"/>
@@ -869,7 +869,6 @@
         <image name="searching-magnifying-glass.png" width="357.90292358398438" height="357.90292358398438"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="th3-MM-uR4"/>
         <segue reference="q23-bl-c3x"/>
         <segue reference="UyG-4D-2hX"/>
     </inferredMetricsTieBreakers>
