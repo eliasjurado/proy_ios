@@ -28,7 +28,7 @@ class VCRegistraEncuesta: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "pasarInfoEncuesta"{
-            let listaActualizada = segue.destination as! VCListaEncuesta
+            let listaActualizada = segue.destination as! VCAsesoriaIntegral
             listaActualizada.listaEncuesta = listaParaLlenar
         }
     }

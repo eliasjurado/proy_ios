@@ -19,10 +19,13 @@
 		55657FDA233939CC00D483C0 /* Proy_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55657FD9233939CC00D483C0 /* Proy_IOSUITests.swift */; };
 		558482B8233946A00056D8EA /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558482B7233946A00056D8EA /* RoundButton.swift */; };
 		5590E213233D2BDF00D207AB /* Encuesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590E212233D2BDF00D207AB /* Encuesta.swift */; };
-		5590E215233D2E8700D207AB /* VCListaEncuesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590E214233D2E8700D207AB /* VCListaEncuesta.swift */; };
+		5590E215233D2E8700D207AB /* VCAsesoriaIntegral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590E214233D2E8700D207AB /* VCAsesoriaIntegral.swift */; };
 		5590E217233D374500D207AB /* VCRegistraEncuesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590E216233D374500D207AB /* VCRegistraEncuesta.swift */; };
 		5590E219233E761B00D207AB /* TVCCeldaEncuesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590E218233E761B00D207AB /* TVCCeldaEncuesta.swift */; };
 		5593F45223492F250098B7E6 /* VCOlvideContrasena.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5593F45123492F250098B7E6 /* VCOlvideContrasena.swift */; };
+		55A49664234BD06D00BDD2DD /* VCTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A49663234BD06D00BDD2DD /* VCTab.swift */; };
+		55A49666234BDE9400BDD2DD /* VCCursos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A49665234BDE9400BDD2DD /* VCCursos.swift */; };
+		55ECA7D7234BFD91009B9DFC /* searching-magnifying-glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 55ECA7D6234BFD91009B9DFC /* searching-magnifying-glass.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,10 +64,13 @@
 		55657FDB233939CC00D483C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		558482B7233946A00056D8EA /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		5590E212233D2BDF00D207AB /* Encuesta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encuesta.swift; sourceTree = "<group>"; };
-		5590E214233D2E8700D207AB /* VCListaEncuesta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCListaEncuesta.swift; sourceTree = "<group>"; };
+		5590E214233D2E8700D207AB /* VCAsesoriaIntegral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCAsesoriaIntegral.swift; sourceTree = "<group>"; };
 		5590E216233D374500D207AB /* VCRegistraEncuesta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCRegistraEncuesta.swift; sourceTree = "<group>"; };
 		5590E218233E761B00D207AB /* TVCCeldaEncuesta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCCeldaEncuesta.swift; sourceTree = "<group>"; };
 		5593F45123492F250098B7E6 /* VCOlvideContrasena.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCOlvideContrasena.swift; sourceTree = "<group>"; };
+		55A49663234BD06D00BDD2DD /* VCTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCTab.swift; sourceTree = "<group>"; };
+		55A49665234BDE9400BDD2DD /* VCCursos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCCursos.swift; sourceTree = "<group>"; };
+		55ECA7D6234BFD91009B9DFC /* searching-magnifying-glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "searching-magnifying-glass.png"; path = "../../../04_Recursos/searching-magnifying-glass.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,7 @@
 		55657FB8233939C900D483C0 /* Proy IOS */ = {
 			isa = PBXGroup;
 			children = (
+				55ECA7D6234BFD91009B9DFC /* searching-magnifying-glass.png */,
 				5504C4A0234B3A170008432B /* logo.png */,
 				55657FB9233939C900D483C0 /* AppDelegate.swift */,
 				55657FBB233939C900D483C0 /* VCLogin.swift */,
@@ -124,12 +131,14 @@
 				55657FC5233939CC00D483C0 /* Info.plist */,
 				558482B7233946A00056D8EA /* RoundButton.swift */,
 				5590E212233D2BDF00D207AB /* Encuesta.swift */,
-				5590E214233D2E8700D207AB /* VCListaEncuesta.swift */,
+				5590E214233D2E8700D207AB /* VCAsesoriaIntegral.swift */,
 				5590E216233D374500D207AB /* VCRegistraEncuesta.swift */,
 				5590E218233E761B00D207AB /* TVCCeldaEncuesta.swift */,
 				550A649723482546005915F6 /* VCRegistraUsuario1.swift */,
 				550A649923482563005915F6 /* VCRegistraUsuario2.swift */,
 				5593F45123492F250098B7E6 /* VCOlvideContrasena.swift */,
+				55A49663234BD06D00BDD2DD /* VCTab.swift */,
+				55A49665234BDE9400BDD2DD /* VCCursos.swift */,
 			);
 			path = "Proy IOS";
 			sourceTree = "<group>";
@@ -259,6 +268,7 @@
 				5504C4A1234B3A170008432B /* logo.png in Resources */,
 				55657FC4233939CC00D483C0 /* LaunchScreen.storyboard in Resources */,
 				55657FC1233939CC00D483C0 /* Assets.xcassets in Resources */,
+				55ECA7D7234BFD91009B9DFC /* searching-magnifying-glass.png in Resources */,
 				55657FBF233939C900D483C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,12 +296,14 @@
 			files = (
 				550A649A23482563005915F6 /* VCRegistraUsuario2.swift in Sources */,
 				5590E217233D374500D207AB /* VCRegistraEncuesta.swift in Sources */,
+				55A49664234BD06D00BDD2DD /* VCTab.swift in Sources */,
 				558482B8233946A00056D8EA /* RoundButton.swift in Sources */,
-				5590E215233D2E8700D207AB /* VCListaEncuesta.swift in Sources */,
+				5590E215233D2E8700D207AB /* VCAsesoriaIntegral.swift in Sources */,
 				550A649823482546005915F6 /* VCRegistraUsuario1.swift in Sources */,
 				5590E213233D2BDF00D207AB /* Encuesta.swift in Sources */,
 				55657FBC233939C900D483C0 /* VCLogin.swift in Sources */,
 				55657FBA233939C900D483C0 /* AppDelegate.swift in Sources */,
+				55A49666234BDE9400BDD2DD /* VCCursos.swift in Sources */,
 				5590E219233E761B00D207AB /* TVCCeldaEncuesta.swift in Sources */,
 				5593F45223492F250098B7E6 /* VCOlvideContrasena.swift in Sources */,
 			);
