@@ -30,7 +30,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="152.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Lorem ipsum dolor sit sint occaecat cupidatat non proident, sunt in culpa quida." textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="FJz-fW-5kE">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Lorem ipsum dolor sit sint occaecat cupidatat non proident, sunt in culpa quida." textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJz-fW-5kE">
                                                     <rect key="frame" x="146" y="32" width="257" height="77"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
