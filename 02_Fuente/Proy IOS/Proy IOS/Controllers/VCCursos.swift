@@ -10,15 +10,12 @@ import UIKit
 
 class VCCursos: UIViewController {
 
-    var tab : Bool = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        /*Cambiar el color del boton marcado*/
-        self.tab = true
-        let vTab = self.storyboard?.instantiateViewController(withIdentifier: "UIAsesoria") as! VCAsesoriaIntegral
-        vTab.tab = false
+//cambiar un valor en otro controlador
+        //let vTab = self.storyboard?.instantiateViewController(withIdentifier: "UIAsesoria") as! VCProfesionales
     }
     
 

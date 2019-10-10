@@ -26,12 +26,12 @@ class VCRegistraEncuesta: UIViewController {
         tfTitulo.becomeFirstResponder()
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "pasarInfoEncuesta"{
-            let listaActualizada = segue.destination as! VCAsesoriaIntegral
-            listaActualizada.listaEncuesta = listaParaLlenar
-        }
-    }
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "pasarInfoEncuesta"{
+//            let listaActualizada = segue.destination as! VCProfesionales
+//            listaActualizada.listaEncuesta = listaParaLlenar
+//        }
+//    }
     
     @IBAction func btnGrabar_Click(_ sender: Any) {
         let oEncuesta = Encuesta(pTitulo: self.tfTitulo.text!, pTarget: self.tfTarget.text!, pAutor: "usuario logueado"
