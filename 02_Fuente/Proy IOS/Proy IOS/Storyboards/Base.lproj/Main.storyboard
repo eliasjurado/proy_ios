@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HcZ-LR-ZvM">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -16,7 +16,7 @@
                 <viewControllerPlaceholder storyboardName="RecuperarContrasena" id="y2d-HU-YzD" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oC0-jz-8Bs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1180" y="512"/>
+            <point key="canvasLocation" x="2219" y="502"/>
         </scene>
         <!--RegistrarUsuario-->
         <scene sceneID="t7G-rP-DQJ">
@@ -24,7 +24,7 @@
                 <viewControllerPlaceholder storyboardName="RegistrarUsuario" id="rBJ-tW-5ym" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bbc-rN-UwS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="908" y="512"/>
+            <point key="canvasLocation" x="1969" y="502"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="aaL-eW-Wbf">
@@ -41,7 +41,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hWE-re-mTB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1812" y="96"/>
+            <point key="canvasLocation" x="2851" y="96"/>
         </scene>
         <!--Profesionales-->
         <scene sceneID="gnF-Ac-8DG">
@@ -51,7 +51,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yOe-Ym-get" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1814" y="512"/>
+            <point key="canvasLocation" x="2851" y="502"/>
         </scene>
         <!--Cursos-->
         <scene sceneID="Yar-TU-6LD">
@@ -61,7 +61,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l4c-tN-vbD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2288" y="88"/>
+            <point key="canvasLocation" x="2085" y="-264"/>
         </scene>
         <!--Onboarding-->
         <scene sceneID="Rh7-yf-56n">
@@ -69,7 +69,7 @@
                 <viewControllerPlaceholder storyboardName="Onboarding" id="R7r-C4-bB1" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8PI-Yx-nCV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2288" y="-71"/>
+            <point key="canvasLocation" x="2085" y="-424"/>
         </scene>
         <!--Reservar-->
         <scene sceneID="h86-YM-D7T">
@@ -77,7 +77,7 @@
                 <viewControllerPlaceholder storyboardName="Reservar" id="hhk-sR-IgB" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nl7-9D-xLV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2293" y="-39"/>
+            <point key="canvasLocation" x="2090" y="-392"/>
         </scene>
         <!--Pago-->
         <scene sceneID="2uQ-sm-aZV">
@@ -85,7 +85,7 @@
                 <viewControllerPlaceholder storyboardName="Pago" id="ThP-zU-wTX" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qUf-tJ-el7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2288" y="0.0"/>
+            <point key="canvasLocation" x="2085" y="-352"/>
         </scene>
         <!--Perfil-->
         <scene sceneID="ppn-Yb-pa3">
@@ -93,7 +93,7 @@
                 <viewControllerPlaceholder storyboardName="Perfil" id="AEW-3n-Hdl" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rBj-gP-OVe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2288" y="40"/>
+            <point key="canvasLocation" x="2085" y="-312"/>
         </scene>
         <!--Login-->
         <scene sceneID="tne-QT-ifu">
@@ -257,12 +257,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1042.0289855072465" y="95.758928571428569"/>
+            <point key="canvasLocation" x="2083" y="96"/>
         </scene>
-        <!--Profesionales-->
+        <!--Profesores-->
         <scene sceneID="RRx-Lg-reK">
             <objects>
-                <viewController storyboardIdentifier="UIAsesoria" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2wT-Mg-45t" customClass="VCProfesionales" customModule="Proy_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UIAsesoria" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2wT-Mg-45t" customClass="VCProfesores" customModule="Proy_IOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cNP-0s-eEs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -515,7 +515,116 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Huh-gq-Mla" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3065" y="1195"/>
+            <point key="canvasLocation" x="2701" y="1174"/>
+        </scene>
+        <!--Index-->
+        <scene sceneID="4x5-zX-mO5">
+            <objects>
+                <viewController id="HcZ-LR-ZvM" customClass="VCIndex" customModule="Proy_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Y9-J9-azz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="tu            pe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jKt-Lu-3lv">
+                                <rect key="frame" x="22" y="428" width="374" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="profe." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYh-oj-3ud">
+                                <rect key="frame" x="20" y="428" width="374" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="KSL-fC-wka">
+                                <rect key="frame" x="22" y="205" width="374" height="205"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="kEd-mU-oIN"/>
+                    </view>
+                    <connections>
+                        <segue destination="f1b-C8-zFr" kind="show" id="fvJ-MS-gYD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LlN-f8-yGQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-649.27536231884062" y="95.758928571428569"/>
+        </scene>
+        <!--Onboarding-->
+        <scene sceneID="qME-dE-aCW">
+            <objects>
+                <viewController storyboardIdentifier="vOnboarding" id="f1b-C8-zFr" customClass="VCOnboarding" customModule="PageScrollView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WyL-yQ-1MA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="0Ve-23-580">
+                                <rect key="frame" x="187.5" y="785" width="39" height="37"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </pageControl>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3c6-rX-phK">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <connections>
+                                    <outlet property="delegate" destination="f1b-C8-zFr" id="nsm-jZ-VWg"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3c6-rX-phK" firstAttribute="top" secondItem="WyL-yQ-1MA" secondAttribute="top" id="JfJ-0U-6yR"/>
+                            <constraint firstItem="3c6-rX-phK" firstAttribute="leading" secondItem="kvD-Hn-3Gb" secondAttribute="leading" id="NfN-tS-HgI"/>
+                            <constraint firstAttribute="bottom" secondItem="3c6-rX-phK" secondAttribute="bottom" id="RrL-nk-3Cs"/>
+                            <constraint firstItem="kvD-Hn-3Gb" firstAttribute="bottom" secondItem="0Ve-23-580" secondAttribute="bottom" constant="40" id="d7S-VM-sFJ"/>
+                            <constraint firstItem="0Ve-23-580" firstAttribute="centerX" secondItem="WyL-yQ-1MA" secondAttribute="centerX" id="e3U-Is-vL8"/>
+                            <constraint firstItem="kvD-Hn-3Gb" firstAttribute="trailing" secondItem="3c6-rX-phK" secondAttribute="trailing" id="rVU-6j-r9c"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="kvD-Hn-3Gb"/>
+                    </view>
+                    <connections>
+                        <outlet property="pageControl" destination="0Ve-23-580" id="IJO-IT-fwd"/>
+                        <outlet property="scrollView" destination="3c6-rX-phK" id="R7P-pu-OEK"/>
+                        <segue destination="Z8J-Wf-MS5" kind="show" id="InB-wR-CWk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4tr-wl-nIO" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="169.56521739130437" y="95.758928571428569"/>
+        </scene>
+        <!--Profesores-->
+        <scene sceneID="aSd-yZ-qJe">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Profesores" storyboardName="Profesores" id="v7Z-XD-hBo" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Ip6-Ti-7ah"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Hs-wz-U1E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1561" y="96"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="SRz-WP-al3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Z8J-Wf-MS5" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="OQU-Oh-UlT"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2di-rF-3WD">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="v7Z-XD-hBo" kind="relationship" relationship="rootViewController" id="Zz4-mm-YNy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b2C-ns-WuQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="951" y="96"/>
         </scene>
     </scenes>
     <resources>

@@ -25,7 +25,7 @@
 		55806F98234E54B8002155A1 /* Profesional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55806F97234E54B8002155A1 /* Profesional.swift */; };
 		558482B8233946A00056D8EA /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558482B7233946A00056D8EA /* RoundButton.swift */; };
 		5590E213233D2BDF00D207AB /* Encuesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590E212233D2BDF00D207AB /* Encuesta.swift */; };
-		5590E215233D2E8700D207AB /* VCProfesionales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590E214233D2E8700D207AB /* VCProfesionales.swift */; };
+		5590E215233D2E8700D207AB /* VCProfesores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590E214233D2E8700D207AB /* VCProfesores.swift */; };
 		5590E217233D374500D207AB /* VCRegistraEncuesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590E216233D374500D207AB /* VCRegistraEncuesta.swift */; };
 		5590E219233E761B00D207AB /* TVCeldaProfesional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590E218233E761B00D207AB /* TVCeldaProfesional.swift */; };
 		5593F45223492F250098B7E6 /* VCOlvideContrasena.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5593F45123492F250098B7E6 /* VCOlvideContrasena.swift */; };
@@ -33,7 +33,11 @@
 		55A49666234BDE9400BDD2DD /* VCCursos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A49665234BDE9400BDD2DD /* VCCursos.swift */; };
 		55D9302F234C5BE20027DEE4 /* RecuperarContrasena.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D9302E234C5BE20027DEE4 /* RecuperarContrasena.storyboard */; };
 		55D93034234C67ED0027DEE4 /* RegistrarUsuario.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D93033234C67ED0027DEE4 /* RegistrarUsuario.storyboard */; };
-		55F1DA85234CF67B00CD54E1 /* Profesionales.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F1DA84234CF67B00CD54E1 /* Profesionales.storyboard */; };
+		55EAB1DC2354305300A275DB /* VCOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EAB1DB2354305300A275DB /* VCOnboarding.swift */; };
+		55EAB1DE2354306C00A275DB /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EAB1DD2354306C00A275DB /* View.swift */; };
+		55EAB1E12354307E00A275DB /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55EAB1E02354307E00A275DB /* View.xib */; };
+		55EAB1E32354328D00A275DB /* VCIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EAB1E22354328D00A275DB /* VCIndex.swift */; };
+		55F1DA85234CF67B00CD54E1 /* Profesores.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F1DA84234CF67B00CD54E1 /* Profesores.storyboard */; };
 		55F1DA87234CF6A000CD54E1 /* Cursos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F1DA86234CF6A000CD54E1 /* Cursos.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -79,7 +83,7 @@
 		55806F97234E54B8002155A1 /* Profesional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profesional.swift; sourceTree = "<group>"; };
 		558482B7233946A00056D8EA /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		5590E212233D2BDF00D207AB /* Encuesta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encuesta.swift; sourceTree = "<group>"; };
-		5590E214233D2E8700D207AB /* VCProfesionales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCProfesionales.swift; sourceTree = "<group>"; };
+		5590E214233D2E8700D207AB /* VCProfesores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCProfesores.swift; sourceTree = "<group>"; };
 		5590E216233D374500D207AB /* VCRegistraEncuesta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCRegistraEncuesta.swift; sourceTree = "<group>"; };
 		5590E218233E761B00D207AB /* TVCeldaProfesional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCeldaProfesional.swift; sourceTree = "<group>"; };
 		5593F45123492F250098B7E6 /* VCOlvideContrasena.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCOlvideContrasena.swift; sourceTree = "<group>"; };
@@ -87,7 +91,11 @@
 		55A49665234BDE9400BDD2DD /* VCCursos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCCursos.swift; sourceTree = "<group>"; };
 		55D9302E234C5BE20027DEE4 /* RecuperarContrasena.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RecuperarContrasena.storyboard; sourceTree = "<group>"; };
 		55D93033234C67ED0027DEE4 /* RegistrarUsuario.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegistrarUsuario.storyboard; sourceTree = "<group>"; };
-		55F1DA84234CF67B00CD54E1 /* Profesionales.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profesionales.storyboard; sourceTree = "<group>"; };
+		55EAB1DB2354305300A275DB /* VCOnboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCOnboarding.swift; sourceTree = "<group>"; };
+		55EAB1DD2354306C00A275DB /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		55EAB1E02354307E00A275DB /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		55EAB1E22354328D00A275DB /* VCIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCIndex.swift; sourceTree = "<group>"; };
+		55F1DA84234CF67B00CD54E1 /* Profesores.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profesores.storyboard; sourceTree = "<group>"; };
 		55F1DA86234CF6A000CD54E1 /* Cursos.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cursos.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,6 +147,7 @@
 		55657FB8233939C900D483C0 /* Proy IOS */ = {
 			isa = PBXGroup;
 			children = (
+				55EAB1DF2354307200A275DB /* Views */,
 				55D9302D234C5B500027DEE4 /* Storyboards */,
 				55D93030234C5DD30027DEE4 /* Controllers */,
 				55D93031234C5E0A0027DEE4 /* Beans */,
@@ -175,7 +184,7 @@
 				55657FBD233939C900D483C0 /* Main.storyboard */,
 				55D9302E234C5BE20027DEE4 /* RecuperarContrasena.storyboard */,
 				55D93033234C67ED0027DEE4 /* RegistrarUsuario.storyboard */,
-				55F1DA84234CF67B00CD54E1 /* Profesionales.storyboard */,
+				55F1DA84234CF67B00CD54E1 /* Profesores.storyboard */,
 				55F1DA86234CF6A000CD54E1 /* Cursos.storyboard */,
 			);
 			path = Storyboards;
@@ -184,8 +193,10 @@
 		55D93030234C5DD30027DEE4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				55EAB1E22354328D00A275DB /* VCIndex.swift */,
+				55EAB1DB2354305300A275DB /* VCOnboarding.swift */,
+				5590E214233D2E8700D207AB /* VCProfesores.swift */,
 				55657FBB233939C900D483C0 /* VCLogin.swift */,
-				5590E214233D2E8700D207AB /* VCProfesionales.swift */,
 				5590E216233D374500D207AB /* VCRegistraEncuesta.swift */,
 				5590E218233E761B00D207AB /* TVCeldaProfesional.swift */,
 				550A649723482546005915F6 /* VCRegistraUsuario1.swift */,
@@ -200,6 +211,7 @@
 		55D93031234C5E0A0027DEE4 /* Beans */ = {
 			isa = PBXGroup;
 			children = (
+				55EAB1DD2354306C00A275DB /* View.swift */,
 				558482B7233946A00056D8EA /* RoundButton.swift */,
 				5590E212233D2BDF00D207AB /* Encuesta.swift */,
 				55806F97234E54B8002155A1 /* Profesional.swift */,
@@ -218,6 +230,14 @@
 				55806F8B234E3617002155A1 /* logo.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		55EAB1DF2354307200A275DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				55EAB1E02354307E00A275DB /* View.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,13 +344,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55EAB1E12354307E00A275DB /* View.xib in Resources */,
 				55F1DA87234CF6A000CD54E1 /* Cursos.storyboard in Resources */,
 				55806F92234E3E3E002155A1 /* profesional.jpg in Resources */,
 				55657FC4233939CC00D483C0 /* LaunchScreen.storyboard in Resources */,
 				55657FC1233939CC00D483C0 /* Assets.xcassets in Resources */,
 				55D9302F234C5BE20027DEE4 /* RecuperarContrasena.storyboard in Resources */,
 				55657FBF233939C900D483C0 /* Main.storyboard in Resources */,
-				55F1DA85234CF67B00CD54E1 /* Profesionales.storyboard in Resources */,
+				55F1DA85234CF67B00CD54E1 /* Profesores.storyboard in Resources */,
 				55806F90234E3C97002155A1 /* calendar.png in Resources */,
 				55806F95234E42C3002155A1 /* corazonlleno.png in Resources */,
 				55806F96234E42C3002155A1 /* corazonvacio.png in Resources */,
@@ -363,17 +384,20 @@
 			files = (
 				550A649A23482563005915F6 /* VCRegistraUsuario2.swift in Sources */,
 				5590E217233D374500D207AB /* VCRegistraEncuesta.swift in Sources */,
+				55EAB1DE2354306C00A275DB /* View.swift in Sources */,
 				55A49664234BD06D00BDD2DD /* VCTab.swift in Sources */,
 				558482B8233946A00056D8EA /* RoundButton.swift in Sources */,
-				5590E215233D2E8700D207AB /* VCProfesionales.swift in Sources */,
+				5590E215233D2E8700D207AB /* VCProfesores.swift in Sources */,
 				550A649823482546005915F6 /* VCRegistraUsuario1.swift in Sources */,
 				5590E213233D2BDF00D207AB /* Encuesta.swift in Sources */,
 				55806F98234E54B8002155A1 /* Profesional.swift in Sources */,
+				55EAB1E32354328D00A275DB /* VCIndex.swift in Sources */,
 				55657FBC233939C900D483C0 /* VCLogin.swift in Sources */,
 				55657FBA233939C900D483C0 /* AppDelegate.swift in Sources */,
 				55A49666234BDE9400BDD2DD /* VCCursos.swift in Sources */,
 				5590E219233E761B00D207AB /* TVCeldaProfesional.swift in Sources */,
 				5593F45223492F250098B7E6 /* VCOlvideContrasena.swift in Sources */,
+				55EAB1DC2354305300A275DB /* VCOnboarding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

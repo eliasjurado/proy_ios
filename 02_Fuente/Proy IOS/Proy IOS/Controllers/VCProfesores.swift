@@ -8,7 +8,7 @@
 
 import UIKit
 
-class VCProfesionales: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class VCProfesores: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return listaProfesional.count

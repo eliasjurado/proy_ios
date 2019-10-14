@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="N3E-Xs-eTT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="raV-GX-BxO">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Profesionales-->
+        <!--Profesores-->
         <scene sceneID="nzN-yX-CPf">
             <objects>
-                <viewController storyboardIdentifier="UIAsesoria" useStoryboardIdentifierAsRestorationIdentifier="YES" id="raV-GX-BxO" customClass="VCProfesionales" customModule="Proy_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="vProfesores" useStoryboardIdentifierAsRestorationIdentifier="YES" id="raV-GX-BxO" customClass="VCProfesores" customModule="Proy_IOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v3b-ai-NKn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,7 +40,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nombre Profesional" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xNP-Sb-jnD">
                                                     <rect key="frame" x="146" y="11" width="257" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -72,10 +72,15 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wzt-fm-GHb">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Asesoría Integral" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QUj-nP-g5e">
-                                <rect key="frame" x="11" y="106" width="255" height="24"/>
+                                <rect key="frame" x="8" y="100" width="399" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -83,7 +88,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="sus-k2-nE1"/>
                     </view>
+                    <tabBarItem key="tabBarItem" selectedImage="calendar.png" systemItem="favorites" id="CrR-8H-x1I"/>
                     <navigationItem key="navigationItem" id="jPC-aB-EXR"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="tbLista" destination="fNq-cy-PZU" id="ZYX-Mc-Q2f"/>
                     </connections>
@@ -92,25 +99,44 @@
             </objects>
             <point key="canvasLocation" x="2021.7391304347827" y="1083.4821428571429"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="qZM-YD-Krq">
+        <!--Onboarding-->
+        <scene sceneID="uV9-I7-Pkp">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="N3E-Xs-eTT" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="gcT-BD-QVn"/>
-                    <toolbarItems/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2rK-Z5-YaN">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
+                <viewController id="MzK-b8-Qg2" customClass="VCOnboarding" customModule="PageScrollView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RJy-s3-kDi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Ef4-sh-RFp">
+                                <rect key="frame" x="187.5" y="785" width="39" height="37"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </pageControl>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uS7-7d-fou">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <connections>
+                                    <outlet property="delegate" destination="MzK-b8-Qg2" id="YJm-VO-YU2"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="uS7-7d-fou" secondAttribute="bottom" id="K9t-I8-VIc"/>
+                            <constraint firstItem="uPn-Tp-UYK" firstAttribute="trailing" secondItem="uS7-7d-fou" secondAttribute="trailing" id="KXV-xk-YLl"/>
+                            <constraint firstItem="Ef4-sh-RFp" firstAttribute="centerX" secondItem="RJy-s3-kDi" secondAttribute="centerX" id="KjW-xX-6c5"/>
+                            <constraint firstItem="uPn-Tp-UYK" firstAttribute="bottom" secondItem="Ef4-sh-RFp" secondAttribute="bottom" constant="40" id="mD9-Y5-pQn"/>
+                            <constraint firstItem="uS7-7d-fou" firstAttribute="leading" secondItem="uPn-Tp-UYK" secondAttribute="leading" id="r0r-nO-e95"/>
+                            <constraint firstItem="uS7-7d-fou" firstAttribute="top" secondItem="RJy-s3-kDi" secondAttribute="top" id="rn5-9W-Un3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="uPn-Tp-UYK"/>
+                    </view>
                     <connections>
-                        <segue destination="raV-GX-BxO" kind="relationship" relationship="rootViewController" id="MRK-oK-ii9"/>
+                        <outlet property="pageControl" destination="Ef4-sh-RFp" id="1D8-eW-yc1"/>
+                        <outlet property="scrollView" destination="uS7-7d-fou" id="9jV-fY-H5n"/>
                     </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BhJ-iw-Qa3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jxg-gV-jlo" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1111.5942028985507" y="1084.8214285714284"/>
         </scene>
     </scenes>
     <resources>
