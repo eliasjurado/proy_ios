@@ -1,5 +1,5 @@
 //
-//  Profesional.swift
+//  Profesor.swift
 //  Proy IOS
 //
 //  Created by P on 10/9/19.
@@ -8,10 +8,11 @@
 
 import UIKit
 
-class Profesional: NSObject {
+class Profesor: NSObject {
     //Metadatos
     var ID : Int = 0
     var FecReg : String = ""
+    var FecUpd : String = ""
     //Registro Inicial
     var NombresYApellidos : String = ""
     var Dni : String = ""
@@ -27,10 +28,10 @@ class Profesional: NSObject {
     var FotoUrl : String = ""
     
 
-    init(_ID : Int, _FecReg : String, _NombresYApellidos : String, _Dni : String, _Correo : String, _Celular : String, _Fijo : String,_FecNac : String,_Contrasena : String,_Direccion : String,_Distrito : String,_Perfil : String,_FotoUrl : String ) {
-        
+    init(_ID : Int, _FecReg : String, _FecUpd : String,_NombresYApellidos : String, _Dni : String, _Correo : String, _Celular : String, _Fijo : String,_FecNac : String,_Contrasena : String,_Direccion : String,_Distrito : String,_Perfil : String,_FotoUrl : String ) {
         self.ID = _ID
         self.FecReg = _FecReg
+        self.FecUpd = _FecUpd
         self.NombresYApellidos = _NombresYApellidos
         self.Dni = _Dni
         self.Correo = _Correo

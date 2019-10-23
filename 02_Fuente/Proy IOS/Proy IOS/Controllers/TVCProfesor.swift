@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TVCeldaProfesional: UITableViewCell {
+class TVCProfesor: UITableViewCell {
     @IBOutlet weak var lbNombresYApellidos: UILabel!
     @IBOutlet weak var tvPerfil: UITextView!
     @IBOutlet weak var ivFoto: UIImageView!
@@ -22,13 +22,9 @@ class TVCeldaProfesional: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
-    
-    
-    
-    public func setProfesional(_Profesional : Profesional){
+
+    public func setProfesional(_Profesional : Profesor){
         lbNombresYApellidos.text = _Profesional.NombresYApellidos
         tvPerfil.text = _Profesional.Perfil
         ivFoto.downloaded(from: _Profesional.FotoUrl)

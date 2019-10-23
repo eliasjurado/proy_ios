@@ -55,6 +55,11 @@
                                 <constraint firstAttribute="height" constant="29" id="Rgd-Jv-4nS"/>
                             </constraints>
                         </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JGF-Xj-fH1">
+                            <rect key="frame" x="180" y="786" width="54" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="SALTAR"/>
+                        </button>
                     </subviews>
                     <constraints>
                         <constraint firstItem="I1H-EP-UgA" firstAttribute="leading" secondItem="WTQ-gC-Jx1" secondAttribute="leading" id="0qr-Bj-O3n"/>
@@ -84,8 +89,9 @@
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
-                <outlet property="colorLabel" destination="WTQ-gC-Jx1" id="ovz-qd-FLX"/>
-                <outlet property="colorLabel1" destination="I1H-EP-UgA" id="no8-o5-gzp"/>
+                <outlet property="btSaltar" destination="JGF-Xj-fH1" id="qpW-1b-yfR"/>
+                <outlet property="descripcion" destination="I1H-EP-UgA" id="no8-o5-gzp"/>
+                <outlet property="titulo" destination="WTQ-gC-Jx1" id="ovz-qd-FLX"/>
                 <outlet property="view" destination="YQa-W4-1qA" id="hx2-lE-yxe"/>
             </connections>
             <point key="canvasLocation" x="131.8840579710145" y="145.98214285714286"/>

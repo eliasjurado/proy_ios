@@ -11,7 +11,8 @@ import UIKit
 class View: UIView {
     
     @IBOutlet weak var view: UIImageView!
-    @IBOutlet weak var colorLabel: UITextView!
-    @IBOutlet weak var colorLabel1: UITextView!
+    @IBOutlet weak var titulo: UITextView!
+    @IBOutlet weak var descripcion: UITextView!
+    @IBOutlet weak var btSaltar: UIButton!
     
 }

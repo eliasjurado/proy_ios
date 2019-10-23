@@ -14,32 +14,38 @@ class VCOnboarding : UIViewController {
         get {
             let page1: View = Bundle.main.loadNibNamed("View", owner: self, options: nil)?.first as! View
             page1.view.image = UIImage.init(named: "lapiz")
-            page1.colorLabel.text = "Elige el curso que necesitas"
-            page1.colorLabel1.text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            page1.titulo.text = "Elige el curso que necesitas"
+            page1.descripcion.text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            page1.btSaltar.setTitle("", for: UIControl.State.normal)
             
             let page2: View = Bundle.main.loadNibNamed("View", owner: self, options: nil)?.first as! View
             page2.view.image = UIImage.init(named: "gente")
-            page2.colorLabel.text = "Selecciona al profesor y al alumno"
-            page2.colorLabel1.text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            page2.titulo.text = "Selecciona al profesor y al alumno"
+            page2.descripcion.text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            page2.btSaltar.setTitle("", for: UIControl.State.normal)
             
             let page3: View = Bundle.main.loadNibNamed("View", owner: self, options: nil)?.first as! View
             page3.view.image = UIImage.init(named: "casa")
-            page3.colorLabel.text = "Reserva tu clase y espera en casa"
-            page3.colorLabel1.text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            page3.titulo.text = "Reserva tu clase y espera en casa"
+            page3.descripcion.text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            page3.btSaltar.setTitle("SALTAR", for: UIControl.State.normal)
+            page3.btSaltar.addTarget(self, action: #selector(self.SaltarApp(sender:)), for: .touchUpInside)
             
             return [page1, page2, page3]
         }
+    }
+   
+    @objc func SaltarApp (sender : UIButton) {
+        let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let app = storyboard.instantiateViewController(withIdentifier: "vTBCPrincipal") as! TBCPrincipal
+        self.present(app,animated: true,completion: nil)
     }
     
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var pageControl: UIPageControl!
     
 //    @IBAction func btSaltar_Click(_ sender: Any) {
-//
-//            let storyboard : UIStoryboard = UIStoryboard(name: "Profesores", bundle: nil)
-//            let profesores = storyboard.instantiateViewController(withIdentifier: "vProfesores") as! VCProfesores
-//
-//            self.present(profesores,animated: true,completion: nil)
+
 //    }
     
     
@@ -64,13 +70,13 @@ class VCOnboarding : UIViewController {
             scrollView.addSubview(pages[i])
             
             //Para pasar a la siguiente vista
-            if i == 2{
-                DispatchQueue.main.asyncAfter(deadline: DispatchTime.now()+6){
-                let storyboard : UIStoryboard = UIStoryboard(name: "Profesores", bundle: nil)
-                let profesores = storyboard.instantiateViewController(withIdentifier: "vProfesores") as! VCProfesores
-                    self.present(profesores,animated: true,completion: nil)
-                }
-            }
+            //            if i == 2{
+            //                DispatchQueue.main.asyncAfter(deadline: DispatchTime.now()+6){
+            //                let storyboard : UIStoryboard = UIStoryboard(name: "Profesores", bundle: nil)
+            //                let profesores = storyboard.instantiateViewController(withIdentifier: "vProfesores") as! VCProfesores
+            //                    self.present(profesores,animated: true,completion: nil)
+            //                }
+            //            }
         }
         
         
