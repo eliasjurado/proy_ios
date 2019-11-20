@@ -29,7 +29,6 @@
 		5590E217233D374500D207AB /* VCRegistraEncuesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590E216233D374500D207AB /* VCRegistraEncuesta.swift */; };
 		5590E219233E761B00D207AB /* TVCProfesor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590E218233E761B00D207AB /* TVCProfesor.swift */; };
 		5593F45223492F250098B7E6 /* VCOlvideContrasena.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5593F45123492F250098B7E6 /* VCOlvideContrasena.swift */; };
-		55A49664234BD06D00BDD2DD /* VCTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A49663234BD06D00BDD2DD /* VCTab.swift */; };
 		55A49666234BDE9400BDD2DD /* VCCursos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A49665234BDE9400BDD2DD /* VCCursos.swift */; };
 		55D9302F234C5BE20027DEE4 /* RecuperarContrasena.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D9302E234C5BE20027DEE4 /* RecuperarContrasena.storyboard */; };
 		55D93034234C67ED0027DEE4 /* RegistrarUsuario.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D93033234C67ED0027DEE4 /* RegistrarUsuario.storyboard */; };
@@ -39,6 +38,14 @@
 		55EAB1E32354328D00A275DB /* VCIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EAB1E22354328D00A275DB /* VCIndex.swift */; };
 		55ED21172359323000736794 /* TVCCurso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ED21162359323000736794 /* TVCCurso.swift */; };
 		55ED21192359342800736794 /* Curso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ED21182359342800736794 /* Curso.swift */; };
+		55F144682384B1D90071CB6B /* PerfilAlumno.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F144672384B1D90071CB6B /* PerfilAlumno.storyboard */; };
+		55F1446A2384B40C0071CB6B /* RoundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F144692384B40C0071CB6B /* RoundImage.swift */; };
+		55F1446C2384B9DC0071CB6B /* VCPerfilAlumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F1446B2384B9DC0071CB6B /* VCPerfilAlumno.swift */; };
+		55F1446E2384BB460071CB6B /* VCPerfilChild1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F1446D2384BB460071CB6B /* VCPerfilChild1.swift */; };
+		55F144702384C1950071CB6B /* VCPerfilAlumnoDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F1446F2384C1950071CB6B /* VCPerfilAlumnoDatos.swift */; };
+		55F144722384C1B70071CB6B /* VCPerfilAlumnosHistorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F144712384C1B70071CB6B /* VCPerfilAlumnosHistorial.swift */; };
+		55F144772384C9DA0071CB6B /* VCPerfilAlumnoFavoritos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F144752384C9DA0071CB6B /* VCPerfilAlumnoFavoritos.swift */; };
+		55F144782384C9DA0071CB6B /* VCPerfilAlumnoFavoritos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F144762384C9DA0071CB6B /* VCPerfilAlumnoFavoritos.xib */; };
 		55F1DA85234CF67B00CD54E1 /* Profesores.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F1DA84234CF67B00CD54E1 /* Profesores.storyboard */; };
 		55F1DA87234CF6A000CD54E1 /* Cursos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F1DA86234CF6A000CD54E1 /* Cursos.storyboard */; };
 		55F232D823590D9D0082A6EE /* TBCPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F232D723590D9D0082A6EE /* TBCPrincipal.swift */; };
@@ -90,7 +97,6 @@
 		5590E216233D374500D207AB /* VCRegistraEncuesta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCRegistraEncuesta.swift; sourceTree = "<group>"; };
 		5590E218233E761B00D207AB /* TVCProfesor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCProfesor.swift; sourceTree = "<group>"; };
 		5593F45123492F250098B7E6 /* VCOlvideContrasena.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCOlvideContrasena.swift; sourceTree = "<group>"; };
-		55A49663234BD06D00BDD2DD /* VCTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCTab.swift; sourceTree = "<group>"; };
 		55A49665234BDE9400BDD2DD /* VCCursos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCCursos.swift; sourceTree = "<group>"; };
 		55D9302E234C5BE20027DEE4 /* RecuperarContrasena.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RecuperarContrasena.storyboard; sourceTree = "<group>"; };
 		55D93033234C67ED0027DEE4 /* RegistrarUsuario.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegistrarUsuario.storyboard; sourceTree = "<group>"; };
@@ -100,6 +106,14 @@
 		55EAB1E22354328D00A275DB /* VCIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCIndex.swift; sourceTree = "<group>"; };
 		55ED21162359323000736794 /* TVCCurso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCCurso.swift; sourceTree = "<group>"; };
 		55ED21182359342800736794 /* Curso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curso.swift; sourceTree = "<group>"; };
+		55F144672384B1D90071CB6B /* PerfilAlumno.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PerfilAlumno.storyboard; sourceTree = "<group>"; };
+		55F144692384B40C0071CB6B /* RoundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImage.swift; sourceTree = "<group>"; };
+		55F1446B2384B9DC0071CB6B /* VCPerfilAlumno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCPerfilAlumno.swift; sourceTree = "<group>"; };
+		55F1446D2384BB460071CB6B /* VCPerfilChild1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCPerfilChild1.swift; sourceTree = "<group>"; };
+		55F1446F2384C1950071CB6B /* VCPerfilAlumnoDatos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCPerfilAlumnoDatos.swift; sourceTree = "<group>"; };
+		55F144712384C1B70071CB6B /* VCPerfilAlumnosHistorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCPerfilAlumnosHistorial.swift; sourceTree = "<group>"; };
+		55F144752384C9DA0071CB6B /* VCPerfilAlumnoFavoritos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCPerfilAlumnoFavoritos.swift; sourceTree = "<group>"; };
+		55F144762384C9DA0071CB6B /* VCPerfilAlumnoFavoritos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCPerfilAlumnoFavoritos.xib; sourceTree = "<group>"; };
 		55F1DA84234CF67B00CD54E1 /* Profesores.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profesores.storyboard; sourceTree = "<group>"; };
 		55F1DA86234CF6A000CD54E1 /* Cursos.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cursos.storyboard; sourceTree = "<group>"; };
 		55F232D723590D9D0082A6EE /* TBCPrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBCPrincipal.swift; sourceTree = "<group>"; };
@@ -192,6 +206,7 @@
 				55D93033234C67ED0027DEE4 /* RegistrarUsuario.storyboard */,
 				55F1DA84234CF67B00CD54E1 /* Profesores.storyboard */,
 				55F1DA86234CF6A000CD54E1 /* Cursos.storyboard */,
+				55F144672384B1D90071CB6B /* PerfilAlumno.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -211,7 +226,12 @@
 				550A649723482546005915F6 /* VCRegistraUsuario1.swift */,
 				550A649923482563005915F6 /* VCRegistraUsuario2.swift */,
 				5590E216233D374500D207AB /* VCRegistraEncuesta.swift */,
-				55A49663234BD06D00BDD2DD /* VCTab.swift */,
+				55F1446B2384B9DC0071CB6B /* VCPerfilAlumno.swift */,
+				55F1446D2384BB460071CB6B /* VCPerfilChild1.swift */,
+				55F1446F2384C1950071CB6B /* VCPerfilAlumnoDatos.swift */,
+				55F144712384C1B70071CB6B /* VCPerfilAlumnosHistorial.swift */,
+				55F144752384C9DA0071CB6B /* VCPerfilAlumnoFavoritos.swift */,
+				55F144762384C9DA0071CB6B /* VCPerfilAlumnoFavoritos.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -224,6 +244,7 @@
 				5590E212233D2BDF00D207AB /* Encuesta.swift */,
 				55806F97234E54B8002155A1 /* Profesor.swift */,
 				55ED21182359342800736794 /* Curso.swift */,
+				55F144692384B40C0071CB6B /* RoundImage.swift */,
 			);
 			path = Beans;
 			sourceTree = "<group>";
@@ -353,8 +374,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F144782384C9DA0071CB6B /* VCPerfilAlumnoFavoritos.xib in Resources */,
 				55EAB1E12354307E00A275DB /* View.xib in Resources */,
 				55F1DA87234CF6A000CD54E1 /* Cursos.storyboard in Resources */,
+				55F144682384B1D90071CB6B /* PerfilAlumno.storyboard in Resources */,
 				55806F92234E3E3E002155A1 /* profesional.jpg in Resources */,
 				55657FC4233939CC00D483C0 /* LaunchScreen.storyboard in Resources */,
 				55657FC1233939CC00D483C0 /* Assets.xcassets in Resources */,
@@ -394,14 +417,19 @@
 				550A649A23482563005915F6 /* VCRegistraUsuario2.swift in Sources */,
 				5590E217233D374500D207AB /* VCRegistraEncuesta.swift in Sources */,
 				55EAB1DE2354306C00A275DB /* View.swift in Sources */,
-				55A49664234BD06D00BDD2DD /* VCTab.swift in Sources */,
+				55F1446C2384B9DC0071CB6B /* VCPerfilAlumno.swift in Sources */,
 				558482B8233946A00056D8EA /* RoundButton.swift in Sources */,
 				5590E215233D2E8700D207AB /* VCProfesores.swift in Sources */,
 				550A649823482546005915F6 /* VCRegistraUsuario1.swift in Sources */,
 				5590E213233D2BDF00D207AB /* Encuesta.swift in Sources */,
 				55806F98234E54B8002155A1 /* Profesor.swift in Sources */,
 				55EAB1E32354328D00A275DB /* VCIndex.swift in Sources */,
+				55F1446A2384B40C0071CB6B /* RoundImage.swift in Sources */,
 				55657FBC233939C900D483C0 /* VCLogin.swift in Sources */,
+				55F144772384C9DA0071CB6B /* VCPerfilAlumnoFavoritos.swift in Sources */,
+				55F144702384C1950071CB6B /* VCPerfilAlumnoDatos.swift in Sources */,
+				55F1446E2384BB460071CB6B /* VCPerfilChild1.swift in Sources */,
+				55F144722384C1B70071CB6B /* VCPerfilAlumnosHistorial.swift in Sources */,
 				55657FBA233939C900D483C0 /* AppDelegate.swift in Sources */,
 				55F232D823590D9D0082A6EE /* TBCPrincipal.swift in Sources */,
 				55A49666234BDE9400BDD2DD /* VCCursos.swift in Sources */,
